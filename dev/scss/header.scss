@@ -1,0 +1,28 @@
+.header {
+    background-color: #222;
+
+
+    &__navigation {
+
+    }
+
+    &__list {
+        display: flex;
+        gap: 30px;
+        padding: 25px 0;
+    }
+
+    &__item {
+    }
+
+    &__link {
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #fff;
+        transition: 0.3s;
+
+        &:hover {
+            color: #c94b4b;
+        }
+    }
+}
