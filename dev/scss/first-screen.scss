@@ -1,7 +1,30 @@
-.sdf {
-    padding: 20;
+.genplan {
+    background-color: #7b877b;
+    max-height: calc(100vh - $header-height);
+    overflow: hidden;
+    position: relative;
 }
 
-.sdfg {
-    padding: 0%;
+.genplan__svg {
+    
+}
+
+.build-path {
+    transition: 0.3s;
+    cursor: pointer;
+
+    &:hover {
+        fill-opacity: 0.5;
+    }
+}
+
+.build-info {
+    position: absolute;
+    bottom: 4vw;
+    right: 4vw;
+    border: solid 1px #fff;
+    padding: 28px;
+    border-radius: 12px;
+    background-color: #fff5;
+    backdrop-filter: blur(1px);
 }
